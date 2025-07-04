@@ -1,3 +1,7 @@
+build
+.vscode
+pico_sdk_import.cmake
+
 # Prerequisites
 *.d
 

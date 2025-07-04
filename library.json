@@ -1,0 +1,28 @@
+{
+    "name": "elapsed_time",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kylehofer/elapsed_time.git"
+    },
+    "build": {
+        "srcFilter": [
+            "+<**/*.cpp>",
+            "-<**/tests/*>"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kyle Hofer",
+            "email": "kylehofer@neurak.com.au",
+            "url": "https://www.neurak.au",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://www.neurak.au",
+    "frameworks": "*",
+    "platforms": "*"
+}
