@@ -1,12 +1,6 @@
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 20)
 
-# initialize the Raspberry Pi Pico SDK
-IF(${BUILD_TARGET} STREQUAL "PICO")
-    # set(PICO_BOARD pico_w)
-    pico_sdk_init()
-ENDIF()
-
 SET(ELAPSED_TIME_STATIC ON CACHE BOOL "")
 
 # Finding all of our source
